@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+
+
+.embrulho {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+}
+
+header {
+    margin: 47px 0 0 42px;
+    color: #17233D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    word-spacing: 32px;
+    cursor: pointer;
+}
+
+.Signup {
+    margin-top: 23px;
+    margin-left: 200px;
+    position: absolute;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    border: none;
+    background: #6FBF44;
+    width: 124px;
+    cursor: pointer;
+
+}
+
+
+h1 {
+    color: #161A49;
+    width: 582px;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p {
+    margin-top: 47px;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 183.333% */
+    letter-spacing: 0.5px;
+    width: 300px;
+}
+
+img {
+    margin-top: 50px;
+}
+
+.right {
+    margin-top: 200px;
+    margin-left: 84px;
+}
+
+.Learn {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+
+    header a {
+        display: none;
+    }
+
+    .right {
+        position: absolute;
+        bottom: 80%;
+        right: 30%;
+    }
+
+    .left {
+        position: absolute;
+        margin-top: 70%;
+        margin-right: 30px;
+    }
+
+    h1 {
+        width: 278px;
+        color: #161A49;
+        margin-left: px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        text-align: center;
+    }
+
+    p {
+        position: absolute;
+        margin-left: 0;
+        color: #4B505A;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        /* 183.333% */
+        letter-spacing: 0.5px;
+    }
+
+    .Signup {
+        position: absolute;
+       margin-left: 30%;
+        top: 0;
+        
+        border: none;
+    }
+
+    .Learn {
+        top: 50%;
+        margin-left: 30%;
+        cursor: pointer;
+    }
+
+    img {
+        width: 278px;
+        height: 268.932px;
+        margin-left: 10%;
+    }
+}
