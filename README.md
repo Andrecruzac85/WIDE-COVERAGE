@@ -21,6 +21,7 @@ Este projeto tem como objetivo apresentar informações pessoais e profissionais
 ## 📱 Responsividade
 
 O layout do site foi pensado para funcionar bem em dispositivos móveis e desktops. Foi utilizado CSS puro com media queries para adaptar o conteúdo ao tamanho da tela.
+<img src="https://github.com/Andrecruzac85/WIDE-COVERAGE/blob/main/assets/WIDE%20COVERAGE%20desktop.png?raw=true"/>
 
 🧑‍💻 Autor
 André Cruz
