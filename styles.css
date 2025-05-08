@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-.embrulho {
+
+
+.wrapping {
     height: 100vh;
     width: 100vh;
     display: flex;
