@@ -92,18 +92,21 @@ img {
     }
 
     .right {
+        width: 100%;
         position: absolute;
         bottom: 80%;
         right: 30%;
     }
 
     .left {
+        width: 100%;
         position: absolute;
         margin-top: 70%;
         margin-right: 30px;
     }
 
     h1 {
+        margin-left: 45%;
         width: 278px;
         color: #161A49;
         margin-left: px;
@@ -116,35 +119,37 @@ img {
     }
 
     p {
+        margin-left: 45%;
         position: absolute;
-        margin-left: 0;
         color: #4B505A;
         font-family: Poppins;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 33px;
-        /* 183.333% */
+        margin-top: 25%;
         letter-spacing: 0.5px;
     }
 
     .Signup {
         position: absolute;
-       margin-left: 30%;
+        margin-left: 50%;
         top: 0;
-        
         border: none;
     }
 
     .Learn {
-        top: 50%;
-        margin-left: 30%;
+        position: absolute;
+        top: 60%;
+        margin-left: 67%;
         cursor: pointer;
     }
 
     img {
-        width: 278px;
-        height: 268.932px;
-        margin-left: 10%;
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        margin-left: 15%;
+        margin-top: 30%;
     }
 }
